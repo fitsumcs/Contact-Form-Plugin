@@ -37,6 +37,7 @@ function mc_addMenu()
         'manage_options',
         'contact-form',
         'displayCode',
+        'dashicons-feedback'
     );
 
 }
