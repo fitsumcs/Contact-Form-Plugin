@@ -60,3 +60,13 @@ function displayCode()
     echo '<h1>The code : s_contact_form</h1>';
 }
 add_action('admin_menu', 'mc_addMenu');
+
+// Enqueue style 
+// function utm_user_scripts() {
+
+//     wp_enqueue_style( 'myCSS', plugins_url( '/css/style.css', __FILE__ ) );
+
+//     echo plugins_url( '/css/style.css', __FILE__ );
+// }
+
+// add_action( 'admin_enqueue_scripts', 'utm_user_scripts' );
