@@ -41,3 +41,12 @@ function mc_contact_form()
 
 // add shortcut 
 add_shortcode('s_contact_form', 'mc_contact_form');
+
+function mc_addMenu()
+{
+
+
+
+}
+
+add_action('admin_menu', 'mc_addMenu')
