@@ -50,7 +50,8 @@ add_action('admin_menu', 'mc_addMenu');
 // Enqueue style 
 function mc_loadmycss() {
 
-    wp_enqueue_style( 'myCSS', plugin_dir_url(__FILE__) .'css/style.css');
+    wp_enqueue_style( 'myCSS', plugin_dir_url(__FILE__) .'assets/css/style.css');
+    wp_enqueue_script( 'my_custom_script', plugin_dir_url( __FILE__ ) . 'assets/js/script.js' );
 
 }
 

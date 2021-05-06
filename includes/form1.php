@@ -1,6 +1,6 @@
 
 <div class="container">
-  <form action="#">
+  <form action="#" id="myForm">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
