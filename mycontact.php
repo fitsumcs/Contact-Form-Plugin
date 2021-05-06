@@ -13,15 +13,22 @@
  * Text Domain:       my-basics-plugin
  */
 
- define('ABSPATH') or die("You are missing the path man :) ");
+defined('ABSPATH') or die("You are missing the path man :) ");
 
 
-//  Func to contact form 
 function mc_addcontact_form()
 {
+
+    $content = '';
+    $content .= 'HELLO WORLD';
+
+
+
+    return $content;
+
 
 
 }
 
 // add shortcut 
-add_shortcode('s_contact_form', mc_addcontact_form);
+add_shortcode('s_contact_form', 'mc_addcontact_form');
