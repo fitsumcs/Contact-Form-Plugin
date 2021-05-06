@@ -20,7 +20,16 @@ function mc_contact_form()
 {
 
     $content = '';
-    $content .= 'HELLO WORLD';
+    $content .= '<h2> Contact Us !! </h2> ';
+    $content .= '<label for="fname">First Name</label>';
+    $content .= '<input type="text" id="fname" name="firstname" placeholder="Your name.."><br/>';
+    $content .= '<label for="lname">Last Name</label>';
+    $content .= '  <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br/>';
+    $content .= '<label for="email">Email </label>';
+    $content .= '  <input type="email" id="email" name="email" placeholder="Your Email.."><br/>';
+    $content .= '<label for="subject">Subject</label><br/>';
+    $content .= ' <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br/>';
+    $content .= ' <input type="submit" value="Submit">';
 
 
 
