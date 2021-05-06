@@ -16,7 +16,7 @@
 defined('ABSPATH') or die("You are missing the path man :) ");
 
 
-function mc_addcontact_form()
+function mc_contact_form()
 {
 
     $content = '';
@@ -31,4 +31,4 @@ function mc_addcontact_form()
 }
 
 // add shortcut 
-add_shortcode('s_contact_form', 'mc_addcontact_form');
+add_shortcode('s_contact_form', 'mc_contact_form');
