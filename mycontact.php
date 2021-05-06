@@ -62,11 +62,10 @@ function displayCode()
 add_action('admin_menu', 'mc_addMenu');
 
 // Enqueue style 
-// function utm_user_scripts() {
+function mc_loadmycss() {
 
-//     wp_enqueue_style( 'myCSS', plugins_url( '/css/style.css', __FILE__ ) );
+    wp_enqueue_style( 'myCSS', plugin_dir_url(__FILE__) .'css/style.css');
 
-//     echo plugins_url( '/css/style.css', __FILE__ );
-// }
+}
 
-// add_action( 'admin_enqueue_scripts', 'utm_user_scripts' );
+add_action( 'wp_enqueue_scripts', 'mc_loadmycss' );
