@@ -12,3 +12,16 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       my-basics-plugin
  */
+
+ define('ABSPATH') or die("You are missing the path man :) ");
+
+
+//  Func to contact form 
+function mc_addcontact_form()
+{
+
+
+}
+
+// add shortcut 
+add_shortcode('s_contact_form', mc_addcontact_form);
