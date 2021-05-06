@@ -1,6 +1,6 @@
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="#">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
