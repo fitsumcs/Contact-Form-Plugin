@@ -44,7 +44,7 @@ function mc_addMenu()
 
 function displayCode()
 {
-    echo '<h1>The code : s_contact_form</h1>';
+    include_once plugin_dir_path(__FILE__) .'includes/setting.php';
 }
 add_action('admin_menu', 'mc_addMenu');
 
