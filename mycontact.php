@@ -45,8 +45,18 @@ add_shortcode('s_contact_form', 'mc_contact_form');
 function mc_addMenu()
 {
 
-
+    add_menu_page(
+        'Contact Form',
+        'Contact Form',
+        'manage_options',
+        'contact-form',
+        'displayCode',
+    );
 
 }
 
-add_action('admin_menu', 'mc_addMenu')
+function displayCode()
+{
+    echo '<h1>The code : s_contact_form</h1>';
+}
+add_action('admin_menu', 'mc_addMenu');
